@@ -76,3 +76,4 @@ D:\DoctorBooking\obj\Debug\DoctorBooking.csproj.CoreCompileInputs.cache
 D:\DoctorBooking\obj\Debug\DoctorBooking.csproj.CopyComplete
 D:\DoctorBooking\obj\Debug\DoctorBooking.dll
 D:\DoctorBooking\obj\Debug\DoctorBooking.pdb
+D:\DoctorBooking\obj\Debug\DoctorBooking.csproj.AssemblyReference.cache
