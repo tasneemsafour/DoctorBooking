@@ -1,4 +1,6 @@
-﻿using System;
+﻿
+using DoctorBooking.Server;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -15,6 +17,7 @@ namespace DoctorBooking
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+            DataAccess.connection();
         }
     }
 }

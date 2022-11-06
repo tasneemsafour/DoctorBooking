@@ -12,7 +12,9 @@ function remcl(){
 		parent.classList.remove("focus");
 	}
 }
-
+function btnLogin() {
+	document.location = "About";
+}
 
 inputs.forEach(input => {
 	input.addEventListener("focus", addcl);

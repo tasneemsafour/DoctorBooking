@@ -15,7 +15,7 @@ namespace DoctorBooking.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            
 
             return View();
         }
@@ -26,5 +26,17 @@ namespace DoctorBooking.Controllers
 
             return View();
         }
+       //[HttpPost]
+       // public ActionResult Registerr()
+       // {
+       //     return View("About");
+       //     //return RedirectToAction("Register" , "Authentication" ,0);
+
+       // }
+
+       // public ActionResult Loginn()
+       // {
+       //     return View("/Authentication/Login");
+       // }
     }
 }

@@ -2,11 +2,33 @@
     ViewBag.Title = "Doctor";
 }
 
-<div style="background:linear-gradient(180deg, #FAFDFF -19.77%, #59B2FF 88.03%, #279BFF 121.24%); width: 1150px; height: 500px; ">
-    <h1 style="padding:50px 80px ; font-size:80px">Welcome to Doctor ! </h1>
-    <p style="padding:20px 80px ; font-size:20px"> Choose the doctor that you want with our very own booking app</p>
-    <a class="btn btnPrimaryRadisun btn-primary text-uppercase " style="margin: 30px 80px" href="about">Get Start</a>
-    <img src="~/assets/undraw_doctor_kw5l 1.png" style=" position: absolute;height: 215px; right:80px;top: 170px; "/>
+@*<div style="position: fixed; bottom: 0; left: 0; height: 100%; width: 100%; background: linear-gradient(180deg, #FAFDFF -19.77%, #59B2FF 88.03%, #279BFF 121.24%) ">
+        <h1 style="padding:50px 80px ; font-size:80px">Welcome to Doctor ! </h1>
+        <p style="padding:20px 80px ; font-size:20px"> Choose the doctor that you want with our very own booking app</p>
+        <a class="btn" href="about">Get Start</a>49675
+        <img src="~/assets/undraw_doctor_kw5l 1.png" style=" position: absolute;height: 215px; right:80px;top: 170px; " />
 
+</div>*@
+
+<img class="wave" src="~/assets/wave.png">
+<div class="container">
+    <div class="img">
+        <img src="~/assets/undraw_doctor_kw5l 1.png">
+    </div>
+    <div class="login-content">
+        <form action="index.html">
+            <h2 class="title">Welcome</h2>
+            <a href="/Authentication/Register" style="justify-content: center" class="btn">REGISTRATION</a>
+            <a href="/Authentication/Login" style="justify-content: center" class="btn">LOGIN</a>
+
+
+            @*<input type="submit" class="btn" value="Registerr">*@
+            @*<input type="submit" class="btn" value="Loginn">*@
+
+            @*<input class="btn">
+                <a href="about">GET START</a>
+                <input>*@
+
+        </form>
+    </div>
 </div>
-
